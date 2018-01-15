@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Menu, Modal, Button, Image, Header, Icon } from 'semantic-ui-react';
 
 export default class ModalRules extends Component {

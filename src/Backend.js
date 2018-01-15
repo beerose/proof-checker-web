@@ -1,4 +1,4 @@
-const post = body => fetch('http://proof-checker-server.herokuapp.com', {
+const post = body => fetch('https://proof-checker-server.herokuapp.com', {
   method: 'POST',
   credentials: 'omit',
   // mode: 'no-cors',

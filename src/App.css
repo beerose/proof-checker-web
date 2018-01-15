@@ -29,6 +29,9 @@ body {
 .App-intro {
   font-size: large;
 }
+p {
+  padding: 0.5em !important;
+}
 
 h2 {
   font-size:500% !important;
@@ -37,12 +40,12 @@ h2 {
 }
 
 TextArea {
-  width: 20%;
+  border: none !important;
   min-height: 25em;
   min-width:20em;
   max-width:30em; 
   height: auto;
-  margin-top: 3em !important;  
+  margin-top: 1em !important;  
 }
 
 Button {
@@ -65,6 +68,10 @@ Button {
 
 Modal {
   padding: 4em;
+}
+
+.image .scrolling .content {
+  padding: 1 em !important;
 }
 
 .menu {

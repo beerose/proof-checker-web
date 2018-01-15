@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Menu } from 'semantic-ui-react';
 import ModalRules from './ModalRules';
 import Examples from './Examples';

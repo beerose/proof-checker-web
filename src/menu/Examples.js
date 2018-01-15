@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import { Menu, Modal, Button, Image, Header, Icon } from 'semantic-ui-react';
 
 export default class Examples extends Component {
@@ -35,7 +34,7 @@ export default class Examples extends Component {
                 p /\ q => q /\ p<br />
                 end.</b><br />
                 <br /><br />
-            In the above example we have a proof consisting two elements. The first one is the frame with premise p /&#92 q. Then we have q and p which are both inferred using the rule elimination of conjunction. They are now our local proven facts we can use further. In the next line there is applied rule introducing of conjunction, so that we have q /&#92 p. In the second element of the proof we just have the conclusion of the frame. 
+            In the above example we have a proof consisting two elements. The first one is the frame with premise p and q. Then we have q and p which are both inferred using the rule elimination of conjunction. They are now our local proven facts we can use further. In the next line there is applied rule introducing of conjunction, so that we have q and p. In the second element of the proof we just have the conclusion of the frame. 
             <br /> <br />
             <b>
             goal example_3: p \/ q => q \/ p<br />
@@ -49,7 +48,7 @@ export default class Examples extends Component {
             p \/ q => q \/ p<br />
             end.<br />
             </b><br /><br />
-            Now we have a little bit more complex proof with some nested frames inside. As in previous example it also consists two elements and first we are going to focus on the frame. It infers the premise p \&#92 q and the first frames's formula is an another frame in which the fact q \&#92 p can be deduced using premise p and the rule introducing of disjunction. Then we have conclusion of the first nested frame. Next line look similar to the one that was just described with the same rule introducing of disjunction used to conclude q => q \&#92 p. Now we have three facts: p \&#92 q from premise, p => q \&#92 p and q => q \&#92 p. Due to the facts and the rule elimination of conjunction it is possible to infer q \&#92 p. Thus we evaluated correctness of the frame we have its conclusion p \&#92 q => q \&#92 p.
+            Now we have a little bit more complex proof with some nested frames inside. As in previous example it also consists two elements and first we are going to focus on the frame. It infers the premise p or q and the first frames's formula is an another frame in which the fact q or p can be deduced using premise p and the rule introducing of disjunction. Then we have conclusion of the first nested frame. Next line look similar to the one that was just described with the same rule introducing of disjunction used to conclude q => q or p. Now we have three facts: p or q from premise, p => q or p and q => q or p. Due to the facts and the rule elimination of conjunction it is possible to infer q or p. Thus we evaluated correctness of the frame we have its conclusion p or q => q or p.
             </p>
 
             </Modal.Content>

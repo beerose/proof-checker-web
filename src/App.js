@@ -3,7 +3,7 @@ import './App.css';
 import './Backend';
 import { Input, Button, Form, TextArea, Modal } from 'semantic-ui-react'
 import post from './Backend';
-import CustomMenu from './Menu';
+import CustomMenu from './menu/index';
 import 'semantic-ui-css/semantic.min.css';
 
 const goal = "goal ProofChecker: A"
