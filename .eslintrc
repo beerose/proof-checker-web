@@ -1,0 +1,95 @@
+{
+  "plugins": [
+      "react",
+      "babel",
+      "jasmine"
+  ],
+  "globals": {
+    "DEBUG": false
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "commonjs": true,
+    "node": true,
+    "jasmine": true,
+    "jest": true
+  },
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": false
+      },
+      "sourceType": "module"
+  },
+  "extends": ["eslint:recommended", "airbnb"],
+  "parser": "babel-eslint",
+  "rules": {
+      "switch-colon-spacing": ["error", {"after": true, "before": false}],
+      "require-jsdoc": "off",
+      "no-console":"off",
+      "prefer-const": "error",
+      "semi": "error",
+      "guard-for-in": "off",
+      "no-invalid-this": "off",
+      "arrow-parens": ["error", "as-needed"],
+      "quotes": ["error", "single", {
+        "avoidEscape": true,
+        "allowTemplateLiterals": true
+      }],
+      "object-curly-spacing": ["warn", "always"],
+      "space-infix-ops": ["error", {"int32Hint": true}],
+      
+      "no-const-assign": "error",
+      "no-this-before-super": "warn",
+      "no-undef": "warn",
+      "no-unreachable": "warn",
+      "no-unused-vars": "warn",
+      "constructor-super": "warn",
+      "valid-typeof": "warn",
+      "max-len": ["warn", {
+        "ignoreComments": true,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "code": 80
+      }],
+      "camelcase": "warn",
+      "new-cap": "warn",
+      "no-debugger": "off",
+
+      "react/jsx-uses-vars": 2,
+      "import/no-extraneous-dependencies": "off",
+      "import/no-unresolved": "off",
+      "import/extensions": "off",
+      "react/prefer-stateless-function": "off",
+      "react/forbid-prop-types": "off",
+      "react/no-array-index-key": "off",
+      "react/prop-types": "off",
+      "no-confusing-arrow": "off",
+      "no-plusplus": "off",
+      "no-restricted-syntax": "off",
+      "no-param-reassign": "off",
+      "import/first": "off",
+      "no-use-before-define": "off",
+      
+      "no-underscore-dangle": "off",
+      "jsx-a11y/href-no-hash": "off",
+      "no-shadow": "off",
+      "global-require": "off",
+      "import/no-named-as-default": "off",
+      "import/prefer-default-export": "off",
+      "class-methods-use-this": "warn",
+      "indent": ["error", 2, {
+        "outerIIFEBody": 1,
+        "FunctionDeclaration": {"parameters": "first"},
+        "FunctionExpression": {"parameters": "first"},
+        "CallExpression": {"arguments": "first"},
+        "ArrayExpression": "first",
+        "ObjectExpression": "first"
+      }],
+      "radix": "off",
+      "no-bitwise": "off",
+      "no-mixed-operators": "off",
+      "no-return-assign": "warn",
+      "react/no-danger": "off"
+  }
+}

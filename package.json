@@ -1,0 +1,32 @@
+{
+  "name": "proof-checker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "eslint-plugin-babel": "^4.1.2",
+    "gulp-sass": "^3.1.0",
+    "hugo-bin": "^0.18.1",
+    "markdown-react-js": "^1.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-popup": "^0.9.1",
+    "react-remarkable": "^1.1.3",
+    "react-responsive-modal": "^2.0.0",
+    "react-scripts": "1.0.17",
+    "semantic-ui-css": "^2.2.12",
+    "semantic-ui-react": "^0.77.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1"
+  }
+}

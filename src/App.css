@@ -1,0 +1,105 @@
+body {
+  background: #FF5F6D !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFC371, #FF5F6D) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFC371, #FF5F6D) !important;
+}
+
+.App {
+  text-align: center;
+ /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(192, 183, 183);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+h2 {
+  font-size:500% !important;
+  color: rgb(66, 66, 66);
+  font-family: 'Bad Script', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
+
+TextArea {
+  width: 20%;
+  min-height: 25em;
+  min-width:20em;
+  max-width:30em; 
+  height: auto;
+  margin-top: 3em !important;  
+}
+
+Button {
+  border-top-left-radius: 0.285714rem;
+  border-top-right-radius: 0.285714rem;
+  border-bottom-right-radius: 0.285714rem;
+  border-bottom-left-radius: 0.285714rem;
+  text-align: center;
+  padding-top: 0.785714em;
+  padding-right: 1.5em;
+  padding-bottom: 0.785714em;
+  padding-left: 1.5em;
+  color:  rgba(5, 0, 0, 0.6);
+  background-color: rgb(255, 255, 255);
+}
+
+.disabled {
+  opacity: 0.6;
+}
+
+Modal {
+  padding: 4em;
+}
+
+.menu {
+  background-color: rgb(228, 228, 228) !important;
+  margin-bottom: 2.5em !important;
+  margin-top: 1em !important;
+}
+
+.menu .active {
+  background-color: rgb(247, 244, 245) !important;
+}
+
+.custom-overlay {
+  background: #FF5F6D !important;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(255, 195, 113, 0.7), rgba(255, 95, 109, 0.7)) !important;  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(255, 195, 113, 0.7), rgba(255, 95, 109, 0.7)) !important;
+}
+
+.custom-modal {
+  background: #f4f5ef !important;
+  max-width: 500px !important;
+  border-top-left-radius: 0.285714rem;
+  border-top-right-radius: 0.285714rem;
+  border-bottom-right-radius: 0.285714rem;
+  border-bottom-left-radius: 0.285714rem;
+  color: #454644;
+  width: 100%;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.example {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 40;
+}
